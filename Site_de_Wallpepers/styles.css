@@ -1,0 +1,62 @@
+body {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.816);
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+ul li {
+
+    margin-right: 20px;
+
+
+}
+
+ul li a {
+
+    color: aliceblue;
+
+}
+
+h1 {
+
+    color: rgb(237, 253, 253);
+
+} 
+
+img {
+
+    border-color: aqua solid rgb(121, 185, 246);
+    image-resolution: 150px;
+
+}
+
+footer {
+
+    padding: 20px;
+    border: top 1px solid rgb(59, 218, 226);
+    margin-top: 20px;
+
+}
