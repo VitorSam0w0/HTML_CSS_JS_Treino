@@ -85,7 +85,7 @@ fieldset.grupo .campo {
     text-shadow: none;
 }
 .botao, select {
-    cursos: pointer;
+    cursor: pointer;
 }
 
 #check {
