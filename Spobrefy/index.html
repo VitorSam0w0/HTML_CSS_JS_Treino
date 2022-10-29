@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +10,14 @@
 <body class = "bg">
     <h1>Spobrefy</h1>
 
-        <audio src = "opangelbeats.wav"></audio>
-        <button class = "play angel-beats" >Play</button>
+    <audio style="width: 30%;" controls>
+        <source src = "opangelbeats.wav" type = "audio/mpeg" >
+    </audio>
 
-        <button id = "play">play</button>
-        <audio src = "opangelbeats.wav" id = "beats"></audio>
+        <div>
+            <button class = "play angel-beats" >Play</button>
+            <audio src = "opangelbeats.wav" id = "beats"></audio>
+        </div>
 
-    <script>
-        const play = document.querySelector('play')
-        play.addEventListener('click', function() {
-            const audio = ducument.querySelector('audio')
-            audio.play()
-        })
-    </script>
 </body>
 </html>
